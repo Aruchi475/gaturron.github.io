@@ -1,0 +1,99 @@
+.alinear_Flex{
+    display: flex;
+    justify-content: center;
+}
+body{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-image: url(https://wallpapers-clan.com/wp-content/uploads/2024/07/hello-kitty-clouds-rainbow-desktop-wallpaper-preview.jpg);
+background-repeat: no-repeat;
+margin: 0;
+background-size: cover;
+}
+header{
+    background-color: rgb(255, 212, 218);
+    color: rgb(49, 0, 0);
+    padding: 15px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+ nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+ }
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+ nav ul li a {
+ color: rgb(24, 6, 6);
+ text-decoration: none;
+ font-size: 1.2em;
+}
+nav ul li a:hover {
+    color:rgb(212, 55, 55)
+}
+main{
+    padding: 20px;
+    text-align: center;
+}
+ main h2 {
+    color: rgb(63, 4, 4);
+    font-size: 2em;
+    margin-top: 0;
+ }
+  main p {
+    font-size: 1.2em;
+  }
+  footer{
+   background-color: rgb(255, 171, 184);
+    color: rgb(31, 3, 3);
+    text-align: center;
+    padding: 4px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+    
+  }
+  
+  .video{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: aliceblue;
+    box-shadow: rgb(255, 212, 218);
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .video video{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: aqua;
+  }
+  .texto{
+    background-color: rgb(255, 171, 184);
+    color: rgb(31, 3, 3);
+    text-align: center;
+    padding: 4px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+  }
+
+  .relleno{
+    background-color: rgb(255, 171, 184);
+    color: rgb(31, 3, 3);
+    text-align: center;
+    padding: 4px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+  }
